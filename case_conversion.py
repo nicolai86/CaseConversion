@@ -60,6 +60,20 @@ def run_on_selections(view, edit, func, no_lower=False):
         view.replace(edit, region, func(text))
 
 
+class ConvertToLowerCommand(sublime_plugin.TextCommand):
+    def run(self, edit):
+        for region in self.view.sel():
+            if not region.empty():
+            text = self.view.substr(region)
+            self.view.replace(edit, region, text.lower())
+
+class ConvertToUpperCommand(sublime_plugin.TextCommand):
+    def run(self, edit):
+        for region in self.view.sel():
+            if not region.empty():
+            text = self.view.substr(region)
+            self.view.replace(edit, region, text.upper())
+
 class ConvertToSnakeCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         run_on_selections(self.view, edit, lambda text: text)

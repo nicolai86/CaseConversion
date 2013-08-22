@@ -1,9 +1,11 @@
 # Case Conversion
-Case conversion is a plugin for Sublime Text 2. It converts the current word/token between pascal, 
+Case conversion is a plugin for Sublime Text 2. It converts the current word/token between pascal,
 camel, snake, dot, dash (hyphen) cases, and separated words.
 
 ## Keybindings
-- To snake_case:  "ctrl+alt+c", "ctrl+alt+s"  
+- To UPPERCASE:  "ctrl+alt+c", "ctrl+alt+u"
+- To lowercase:  "ctrl+alt+c", "ctrl+alt+l"
+- To snake_case:  "ctrl+alt+c", "ctrl+alt+s"
 - to camelCase: "ctrl+alt+c", "ctrl+alt+c"
 - to PascalCase: "ctrl+alt+c", "ctrl+alt+p"
 - to dot.case: "ctrl+alt+c", "ctrl+alt+d"
@@ -13,7 +15,7 @@ camel, snake, dot, dash (hyphen) cases, and separated words.
 
 ## Install
 #### Git Clone
-Clone this repository in to the Sublime Text 2 "Packages" directory, which is located where ever the 
+Clone this repository in to the Sublime Text 2 "Packages" directory, which is located where ever the
 "Preferences" -> "Browse Packages" option in sublime takes you.
 
 #### Package Control

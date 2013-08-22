@@ -1,5 +1,13 @@
 [
 	{
+	    "caption": "Convert Case: UpperCase",
+	    "command": "convert_to_upper"
+	},
+	{
+	    "caption": "Convert Case: LowerCase",
+	    "command": "convert_to_lower"
+	},
+	{
 	    "caption": "Convert Case: PascalCase",
 	    "command": "convert_to_pascal"
 	},
